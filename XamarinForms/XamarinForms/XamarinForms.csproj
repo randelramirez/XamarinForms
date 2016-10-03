@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="AccessibilityTestPage.cs" />
     <Compile Include="App.cs" />
+    <Compile Include="AppConstants.cs" />
     <Compile Include="BaskervillesPage.cs" />
     <Compile Include="BlackCatPage.cs" />
     <Compile Include="ButtonLambdasPage.cs" />
@@ -77,6 +78,9 @@
     <Compile Include="ReflectedColorsPage.cs" />
     <Compile Include="ScaryColorListPage.xaml.cs">
       <DependentUpon>ScaryColorListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SharedStaticsPage.xaml.cs">
+      <DependentUpon>SharedStaticsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="SimplestKeypadPage.cs" />
     <Compile Include="SizedBoxViewPage.cs" />
@@ -143,6 +147,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ParameteredConstructorDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SharedStaticsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
