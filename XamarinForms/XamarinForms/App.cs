@@ -45,7 +45,8 @@ namespace XamarinForms
             //MainPage = new MonkeyTapPage();
             //MainPage = new MonkeyTapUsingCodePage();
             //MainPage = new DisplayPlatformInfoPage();
-            MainPage = new MonkeyTapWithSoundPage();
+            //MainPage = new MonkeyTapWithSoundPage();
+            MainPage = new ParameteredConstructorDemoPage();
 
         }
 
