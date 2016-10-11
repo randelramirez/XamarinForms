@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace XamarinForms
 {
@@ -48,7 +43,8 @@ namespace XamarinForms
             //MainPage = new MonkeyTapWithSoundPage();
             //MainPage = new ParameteredConstructorDemoPage();
             //MainPage = new SharedStaticsPage();
-            MainPage = new SystemStaticsPage();
+            //MainPage = new SystemStaticsPage();
+            MainPage = new ResourceSharingPage();
 
 
         }
